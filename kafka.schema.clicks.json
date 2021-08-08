@@ -1,0 +1,31 @@
+{
+  "tableName": "clicks",
+  "schemaName": "default",
+  "topicName": "clicks",
+  "key": {
+    "dataFormat": "raw",
+    "fields": [
+      {
+        "name": "kafka_key",
+        "dataFormat": "LONG",
+        "type": "BIGINT",
+        "hidden": "false"
+      }
+    ]
+  },
+  "message": {
+    "dataFormat": "json",
+    "fields": [
+      {
+        "name": "name",
+        "mapping": "name",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "phone",
+        "mapping": "phone",
+        "type": "VARCHAR"
+      }
+    ]
+  }
+}

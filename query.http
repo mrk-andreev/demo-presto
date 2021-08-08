@@ -1,0 +1,5 @@
+POST http://localhost:8080/v1/statement
+X-Presto-User: mark
+
+SHOW SCHEMAS FROM postgresql
+
